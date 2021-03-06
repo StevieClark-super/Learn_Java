@@ -63,7 +63,24 @@ public class MyFirstVariable {
 
         boolean isAgeAboveTen = true;
 
-        
+        String myName ="Stevie Clark";
+
+        String Name = "my name is ";
+
+        System.out.println(Name+myName);
+
+        //String wontShow = "Nope";
+
+        int myExpression = 2*3;
+
+        System.out.println(myExpression);
+
+        int Number = 2 + 5;
+
+        System.out.println(Number);
+
+
+
 
 
 
