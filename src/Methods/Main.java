@@ -2,18 +2,18 @@ package Methods;
 
 public class Main {
     public static void main(String[] args) {
-       calculateScore(true,800, 5, 100);
+        calculateScore(true, 800, 5, 100);
 
-    calculateScore(true,1000,8, 200);
+        calculateScore(true, 1000, 8, 200);
 
-    numberLottery("Jack hopper",65 );
+        numberLottery("Jack hopper", 65);
 
-    number(6);
+        number(6);
     }
-    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus)
-    {
 
-        if(gameOver) {
+    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
+
+        if (gameOver) {
             int finalScore = score + (levelCompleted * bonus);
             finalScore += 1000;
             System.out.println("Your final score was " + finalScore);
@@ -21,29 +21,22 @@ public class Main {
 
     }
 
-    public static void numberLottery(String participantName, int numberGuess ) {
+    public static void numberLottery(String participantName, int numberGuess) {
 
         if (numberGuess == 67) {
             System.out.println(participantName + "You've won the grand prize of 100K");
-        }
-
-        else if (numberGuess > 30 && numberGuess < 50) {
+        } else if (numberGuess > 30 && numberGuess < 50) {
             System.out.println(participantName + "You've won a 50 4K TV");
-        }
-
-        else if (numberGuess > 50 && numberGuess < 60) {
+        } else if (numberGuess > 50 && numberGuess < 60) {
             System.out.println(participantName + "You've won a tropical cruise for 2");
-        }
-
-        else if (numberGuess  > 60 && numberGuess < 67) {
+        } else if (numberGuess > 60 && numberGuess < 67) {
             System.out.println(participantName + "You've won a new Ford Mach-E");
-        }
-
-        else {
+        } else {
             System.out.println("Better luck next time" + participantName);
         }
 
     }
+
     public static int calculateGuestTier(int score) {
         int value;
         if (score >= 1000) {
@@ -58,7 +51,7 @@ public class Main {
         return value;
     }
 
-    public static void number (int number ) {
+    public static void number(int number) {
         if (number > 0)
             System.out.println("positive");
         else if (number < 0)
@@ -68,12 +61,9 @@ public class Main {
 
     }
 
-    public static int tempConvertor(int number, String values ) {
-        if (number < 0){
-            return -1;
+    public static void tempConvertor(int number, String values) {
+        if (number < 0) {
         }
-
-        if (String )
 
 
     }
