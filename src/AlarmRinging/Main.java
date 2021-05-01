@@ -13,7 +13,11 @@ public class Main {
         System.out.println(myDouble);   // Outputs 9.78
         System.out.println(myInt);      // Outputs 9
     }
-}
+
+    }
+
+
+
 
 
 
